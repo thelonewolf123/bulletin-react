@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board {
+  height: 100px;
+  width: calc(50% - 15px);
+  background: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: x-large;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
